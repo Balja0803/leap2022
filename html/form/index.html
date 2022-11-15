@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form>
+      <label for="email">Enter your email</label>
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+      />
+      <label for="phone">Your phone number</label>
+      <input
+        name="phone"
+        id="phone"
+        type="phone"
+        placeholder="Enter your phone number"
+        maxlength="8"
+        minlength="8"
+      />
+      <label for="gender">Select your gender</label>
+      <select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="other">other</option>
+      </select>
+      <button type="submit">submit</button>
+      <input type="button" value="Cancel" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+form label {
+  display: block;
+}
+form {
+  width: 600px;
+  height: 900px;
+  margin: 0 auto;
+  background-color: rgb(31, 197, 59);
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+#username {
+  width: 100px;
+}
+#username:active {
+  width: 120px;
+}
+#username:hover {
+  width: 150px;
+}
