@@ -2,30 +2,11 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 1350px;
   margin: 0;
+  padding: 0;
 }
 header {
-  background-image: url(https://picsum.photos/500/400);
-  max-width: 100%;
-
+  width: 100%;
   height: auto;
-  text-align: center;
-  padding: 32px;
-}
-header h1 p {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.images {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-#pictures {
-  background-image: url(https://picsum.photos/id/237/200/300);
-  max-width: 200px;
-  min-width: 100px;
-  width: 200px;
 }
