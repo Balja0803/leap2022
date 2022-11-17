@@ -38,8 +38,11 @@ header .button-drop {
   text-align: center;
 }
 .desktop .section2 {
+  display: flex;
+  flex-direction: column;
   background-color: cornflowerblue;
   text-align: center;
+  align-items: center;
 }
 .s2img {
   background-color: coral;
@@ -151,8 +154,26 @@ header .button-drop {
   }
   .section3 {
     display: flex;
+    flex-wrap: wrap;
   }
-  .section3 .;
+  .section3 .s3title {
+    align-self: center;
+    width: 40%;
+  }
+  .section3 .s3d2 {
+    width: 60%;
+  }
+  .section3 .s3settings {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .section3 .settings-toggle {
+    width: ;
+  }
+  .section3 .s3settings .settings-buttons {
+    display: flex;
+  }
 }
 @media screen and (min-width: 769px) {
   .container {
@@ -184,5 +205,40 @@ header .button-drop {
     display: flex;
     background-color: darkcyan;
     width: 75%;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+  }
+  .section3 .s3title {
+    width: 20%;
+    align-self: center;
+  }
+  .section3 .s3d2 {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .section3 .s3d2img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    float: left;
+  }
+  .section3 .s3d2 p {
+  }
+  .section3 .s3settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .section3 .settings-toggle {
+    display: flex;
+    gap: 10px;
   }
 }
