@@ -30,10 +30,10 @@ console.log("" + a + b);
 console.log(a + "" + b);
 console.log(a + b + "");
 
-let inputCelsius = prompt("enter celsius to convert");
-let farenheit = (inputCelsius * 9) / 5 + 32;
-console.log(farenheit);
-alert("converted celsius degree is " + farenheit + " fr");
+// let inputCelsius = prompt("enter celsius to convert");
+// let farenheit = (inputCelsius * 9) / 5 + 32;
+// console.log(farenheit);
+// alert("converted celsius degree is " + farenheit + " fr");
 
 let m;
 let y2 = 56,
@@ -57,9 +57,38 @@ let inch1 = 10;
 let centimeter1 = inch1 * 2.54;
 console.log(centimeter1);
 
-let inputRadius = prompt("enter radius of circle");
-let areaCircle = inputRadius * inputRadius * 3.14;
-let perimeterCircle = 2 * PI * inputRadius;
-console.log(areaCircle);
-console.log(perimeterCircle);
-alert("Circle radius is " + areaCircle);
+// let inputRadius = prompt("enter radius of circle");
+// let areaCircle = inputRadius * inputRadius * 3.14;
+// let perimeterCircle = 2 * PI * inputRadius;
+// console.log(areaCircle);
+// console.log(perimeterCircle);
+// alert("Circle radius is " + areaCircle);
+// alert("circle perimeter is " + perimeterCircle);
+
+let num1 = 156;
+let digit = parseInt(num1 / 100);
+
+console.log(digit);
+
+// let inputPrice = prompt("enter your area of sq meter");
+// let firstPrice = ((inputPrice - (inputPrice % 5)) / 5) * 1100;
+// let secondPrice = ((inputPrice % 5) - ((inputPrice % 5) % 3) / 3) * 780;
+// let thirdPrice =
+//   (inputPrice % 5) - ((inputPrice % 5) - ((inputPrice % 5) % 3) / 3) * 300;
+// let aptPrice = firstPrice + secondPrice + thirdPrice;
+// console.log(aptPrice);
+// alert("There apartment price is " + aptPrice + "$");
+
+let baby = "baby ";
+let mommy = "mommy";
+let daddy = "daddy";
+let grandma = "grandma";
+let grandpa = "grandpa";
+let shark = "shark ";
+let doo = " doo-doo, doo-doo";
+let hunt = "Let's go hunt";
+let run = "Run away";
+let safe = "Safe at last";
+let end = "It's the end";
+
+console.log(baby + shark + doo);
