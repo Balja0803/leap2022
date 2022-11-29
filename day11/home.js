@@ -17,10 +17,3 @@ if (scoreA > scoreB && scoreA >= 100) {
 } else {
   console.log("No winner");
 }
-
-// if (scoreA > scoreB && scoreA >= 100 && scoreB >= 100) {
-//   console.log("Team A has won");
-// } else if (scoreB > scoreA && scoreA >= 100 && scoreB >= 100) {
-//   console.log("Team B has won");
-// } else{
-// }
