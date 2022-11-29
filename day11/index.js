@@ -72,12 +72,3 @@ switch (weekDay) {
   default:
     console.log("not valid");
 }
-if(weekday==1 || weekday==2 || weekday==3)
-
-
-let x = 15;
-if (x>10 && x<20){
-    console.log("10-20")
- } else {
-    if(x=>20)
- }
