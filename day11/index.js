@@ -56,7 +56,7 @@ switch (weekday) {
     console.log("not a day");
 }
 
-let weekDay;
+let weekDay = 6;
 switch (weekDay) {
   case 1:
   case 2:
