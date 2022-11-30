@@ -6,5 +6,5 @@ let inputYear = prompt("Он");
 // }
 let year = Number(inputYear);
 if (1900 <= year <= 2022) {
-  alert(inputYear);
+  alert(year);
 } else warning("not valid year");
