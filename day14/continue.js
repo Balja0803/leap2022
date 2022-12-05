@@ -8,7 +8,7 @@
 // }
 
 // prompt prime number shalgah
-let n = 8;
+let n = 17;
 let prime = true;
 for (let i = 2; i < n; i++) {
   if (n % i == 0) {
