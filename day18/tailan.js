@@ -67,8 +67,6 @@ console.log(niitBorluulalt(data));
 function mostBorluulalt(list) {
   let borluulaltBaraa = [];
   for (i = 0; i < data.length; i++) {
-    if (data[i].totalPrice > data[i + 1].totalPrice) {
-      borluulaltBaraa.push(data[i].totalPrice);
-    }
+    for (j = 0; j < data.length; j++) {}
   }
 }
