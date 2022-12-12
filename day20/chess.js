@@ -11,7 +11,7 @@ for (let i = 0; i < 8; i++) {
     newDiv.style.height = "100px";
     newDiv.style.border = "1px solid black";
     if ((i + j) % 2 == 0) {
-      newDiv.style.backgroundColor == "gray";
+      newDiv.style.backgroundColor = "gray";
     }
   }
 }
