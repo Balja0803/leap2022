@@ -1,16 +1,21 @@
 let rootElement = document.getElementById("root");
 newDiv = document.createElement("div");
+textDiv = document.createElement("div");
+newDiv.appendChild(textDiv);
+document.getElementsByTagName("body")[0].style.maxWidth = "800px";
+let body = document.getElementsByTagName("body")[0];
 rootElement.appendChild(newDiv);
-newDiv.style.width = "50px";
-
 newDiv.style.height = "50px";
 newDiv.style.border = "1px solid black";
-let width = 0;
-let myInterval = setInterval(function () {
-  width++;
-  newDiv.style.width = width + "10px";
+newDiv.style.color = "white";
 
-  if ((boxWidth = "500px")) {
+let count = 0;
+let myInterval = setInterval(function () {
+  count++;
+  newDiv.style.width = `50%`;
+  newDiv.innerText = `r(${count}), g (${count}), b (${count})`;
+  newDiv.style.backgroundColor = `rgb(${count}, 30, 250)`;
+  if (count == "255") {
     clearInterval(myInterval);
   }
-}, 1000);
+}, 20);
