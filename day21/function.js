@@ -13,11 +13,7 @@ for (i = 1; i <= 16; i++) {
   newDiv.style.width = "100px";
   newDiv.style.height = "100px";
   newDiv.style.backgroundColor = bgColor;
-  //   oneDiv[
-  //     Math.floor(Math.random() * 16) + 1
-  //   ].style.backgroundColor = `rgb(${r},${g},${b - 10})`;
-  //   newDiv
-  //   )},${Math.floor(Math.random() * 255 + 1)},${Math.floor(
-  //     Math.random() * 255 + 1
-  //   )})`;
 }
+oneDiv[
+  Math.floor(Math.random() * 14) + 1
+].style.backgroundColor = `rgb(${r},${g},${b - 50})`;
