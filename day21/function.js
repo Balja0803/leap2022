@@ -16,4 +16,4 @@ for (i = 1; i <= 16; i++) {
 }
 oneDiv[
   Math.floor(Math.random() * 14) + 1
-].style.backgroundColor = `rgb(${r},${g},${b - 50})`;
+].style.backgroundColor = `rgb(${r},${g},${b - 20})`;
