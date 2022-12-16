@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 50px;
+}
+#wrapper {
+  background-color: aqua;
+  width: 800px;
+  height: 800px;
+}
+#upper {
+  text-align: center;
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+}
+#inputList {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+#lower h1 {
+  text-align: center;
+}
