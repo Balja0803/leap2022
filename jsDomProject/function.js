@@ -1,3 +1,2 @@
-let inputLIst = document.getElementById("inputList");
-let list = document.querySelector("#lower");
-inputLIst.addEventListener("change", {});
+let inputText = document.getElementById("inputText").value;
+let buttonAdd = document.getElementById("btnAdd");

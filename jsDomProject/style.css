@@ -20,8 +20,6 @@ main {
 }
 #inputList {
   border: 1px solid black;
-  display: flex;
-  justify-content: center;
 }
 #lower h1 {
   text-align: center;
