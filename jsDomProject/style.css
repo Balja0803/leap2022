@@ -19,18 +19,21 @@
   font-weight: 600;
   color: #1c315e;
   letter-spacing: 1px;
-  margin: 30px 0;
+  margin: 0;
 }
 .tasks-left {
   color: gray;
 }
 .todo-list {
+  margin-top: 10px;
   width: 350px;
   padding: 20px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
+
 .list-head {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: 4fr 1fr;
   gap: 20px;
@@ -43,6 +46,7 @@
 }
 .sub-title {
   display: flex;
+  justify-content: space-between;
 }
 .list-h1 {
   color: #1c315e;

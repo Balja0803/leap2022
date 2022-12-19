@@ -2,6 +2,20 @@ let input = document.querySelector(".entered-list");
 let addBtn = document.querySelector(".add-list");
 let tasks = document.querySelector(".tasks");
 let showDate = document.querySelector(".showDate");
+let tasksLeft = document.querySelector(".tasks-left");
+let nowDate = new Date();
+let date =
+  nowDate.getFullYear() +
+  "-" +
+  (nowDate.getMonth() + 1) +
+  "-" +
+  nowDate.getDate();
+
+showDate.innerHTML = `Он сар өдөр : ${date}`;
+
+function taskCount 
+
+
 
 input.addEventListener("keyup", () => {
   if (input.value.trim() != 0) {
