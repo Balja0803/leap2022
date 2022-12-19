@@ -13,10 +13,6 @@ let date =
 
 showDate.innerHTML = `Он сар өдөр : ${date}`;
 
-function taskCount 
-
-
-
 input.addEventListener("keyup", () => {
   if (input.value.trim() != 0) {
     addBtn.classList.add("active");
@@ -54,3 +50,11 @@ tasks.addEventListener("click", (e) => {
     e.target.parentElement.parentElement.classList.toggle("completed");
   }
 });
+let count = 0;
+let taskCounter = () => {
+  for (i = 0; i < tasks.children.length; i++) {
+    count += i;
+    return count;
+  }
+};
+tasksLeft.innerHTML = taskCounter();
