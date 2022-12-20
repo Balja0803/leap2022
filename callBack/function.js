@@ -8,5 +8,4 @@ window.addEventListener("scroll", () => {
   let scrollPercent = height / (docHeight - winHeight);
   let scrollPercentRounded = Math.round(scrollPercent * 100);
   percent.innerText = `${scrollPercentRounded}%`;
-  console.log(window.innerHeight);
 });
