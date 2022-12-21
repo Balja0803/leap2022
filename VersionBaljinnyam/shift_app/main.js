@@ -50,19 +50,19 @@ function genArray() {
   array.pop();
   let answer5 = `Answer:\n[${array}];`;
 
-  let task6 = "array.splice(3, 1, 'teacher')";
-  array.splice(3, 1, "teacher");
+  let task6 = "array.splice(3, 1,)";
+  array.splice(3, 1);
   let answer6 = `Answer:\n[${array}];`;
 
   let task7 =
-    'for (i=0;i<array.length;i++){let person=0; if (person<array[i]){person=array[i]; person +="happy new year!"} "}';
+    'let person=0; for (i=0;i<array.length;i++){ if (person<array[i]){person=array[i]; } }person +="happy new year!"';
   let person = 0;
   for (i = 0; i < array.length; i++) {
     if (person < array[i]) {
       person = array[i];
-      person += ": happy new year!";
     }
   }
+  person += ": happy new year!";
   let answer7 = `Answer:\n[${person}];`;
 
   slides = [
