@@ -5,6 +5,7 @@ fetch("https://dog.ceo/api/breeds/list")
   .then((data) => {
     console.log(data);
     generateBreeds(data.message);
+    generateImage(data.message[0]);
   });
 
 function generateBreeds(data) {
