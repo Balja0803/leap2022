@@ -30,6 +30,12 @@ allBtn.addEventListener("click", () => {
         editBTn.innerText = "edit";
         let btns = document.getElementById(`btns${index}`);
         editBTn.addEventListener("click", () => {
+          let cardTitle = document.querySelector(".card-title");
+          let inputTitle = document.createElement("input");
+          inputTitle.type = "text";
+
+          inputTitle.value = inputTitle.textContent;
+          cardTitle.appendChild(inputTitle);
           console.log("clicked");
         });
         btns.appendChild(editBTn);
